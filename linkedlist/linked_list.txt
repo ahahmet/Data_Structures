@@ -1,0 +1,27 @@
+
+
+                    What is the Linked List ?
+
+        |-----------------|      |-----------------|      |-----------------|
+root--->|  Data  |  next  |----->|  Data  |  next  |----->|  Data  |  next  |--->NULL
+root<---|  Data  |  prev  |<-----|  Data  |  prev  |<-----|  Data  |  prev  |
+        |-----------------|      |-----------------|      |-----------------|
+
+
+
+Linked list is a data structure and it helps to control or design the data on the RAM.
+Linked list is exist the block and each block call the node. The root points the first node
+and it must not the lost, always time must the keep. 
+
+Each node includes the data and point (next-prev(optional)) section. Data section assist storage 
+the data, point section is always time point the next or previous nodes.
+
+If the linked list goes to forward (single way), you must put the null character the end of 
+linked list. The null pointer make aware to us about where is end of the linked list.
+
+If the linked list goes forward and backward (double way), you must put the null character 
+the end of linked list and you must check the root when you move to back. The root make 
+aware to us about the where is the begin of the linked list.
+
+
+Why we must keep the root?
